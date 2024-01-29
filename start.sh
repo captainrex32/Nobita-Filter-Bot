@@ -1,5 +1,4 @@
-bif [ -z $UPSTREAM_REPO ]
-then
+bif [ -z $UPSTREAM_REPO ] then
   echo "Cloning main Repository"
   git clone https://github.com/NobiDeveloper/Nobita-Filter-Bot.git /Nobita-Filter-Bot
 else
